@@ -1,0 +1,65 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap'); */
+:root {
+    --background-color: rgb(183, 183, 183);
+    --backgroung-navbar-color:rgb(92, 92, 92);
+    --text-title-color-color: #000000;
+}
+
+/* ========== SECCION UNIVERSAL ========== */
+*{
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    /* font-family: "Coming Soon", serif; */
+}
+
+/* ========== BODY ========== */
+body {
+    background-color: var(--background-color) !important;
+    width: 100%;
+    height: 100vh;
+    margin-top: 90px !important;
+}
+
+/* ========== HEADER SECTION ========== */
+header {
+    /* border: 2px solid red; */
+    z-index: 200;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0.45rem 2rem 0.45rem 1.27rem;
+    border-bottom: 2px solid black;
+    position: fixed;
+    background-color: var(--backgroung-navbar-color);
+    top: 0;
+    left: 0; 
+
+}
+
+/* ========== Sección izquierda del navbar ========== */
+.left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.4rem;
+}
+
+/* ========== BRAND ========== */
+
+.brand {
+    /* border: 2px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+}
+.brand .logo{
+    width: 3.7rem;
+}
+
+.brand .name{
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: var(--text-title-color-color) !important;
+}
